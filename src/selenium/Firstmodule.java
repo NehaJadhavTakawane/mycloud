@@ -10,7 +10,7 @@ public class Firstmodule {
 		System.setProperty("webdriver.chrome.driver","D:\\chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.amazon.in/");
-		driver.manage().window().maximize();
+		
 		
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("ladies watch titan");
 		driver.findElement(By.id("nav-search-submit-button")).click();
